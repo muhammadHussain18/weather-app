@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    /* font-family: sans-serif; */
+    outline: none;
+
+}
+
+body{
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(images/photo-1503327431567-3ab5e6e79140.avif);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: rgba(245, 245, 245, 0.582) ;
+    border-radius: 15px;
+    padding: 28px;
+    box-shadow: 15px 10px 12px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 15px 10px 12px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 10px 12px 5px rgba(0,0,0,0.75);
+}
+
+.search{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.search input{
+    width: 85%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    background-color: #e6f5fb;
+    padding: 12px 16px;
+    border-radius: 15px;
+}
+
+
+.search button{
+   width: 46px;
+   height: 46px;
+   background-color: #e6f5fb;
+   border-radius: 50%;
+   cursor: pointer;
+   font-size: 20px;
+
+
+}
+
+.search button:hover{
+    color: white;
+    background-color: gray;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block:20px ;
+}
+.location-div h2{
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+    flex-direction:column ;
+}
+
+.main img{
+    width: 50%;
+}
+
+.box{
+    margin-block: 20px;
+    align-items: center;
+}
+.box .temp{
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.box .temp sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600px;
+}
+
+.box .dec{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.humidity, .wind{
+    display: flex;
+    align-items: center;
+
+}
+
+.humidity{
+    margin-left: 20px;
+}
+.wind{
+
+    margin-right: 20px;
+}
+
+.details i {
+    font-size: 30px;
+}
+
+.details .text{
+    margin-left: 10px;
+    font-size: 16px;
+
+}
+
+
+.text span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+

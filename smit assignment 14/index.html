@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="container">
+
+      <div class="header">
+        <div class="search">
+
+          <input type="search" id="search-weather"  placeholder="Enter your City" class="search-input">
+           
+          <button onclick="search()" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+
+      </div>
+        <div class="main">
+          <div class="location-div">
+            <h2 id="city">Karachi</h2>
+            <h2 id="country">PK</h2>
+          </div>
+            <img src="images/clear-day.svg" alt="" id="weather-img">
+
+            <div class="box">
+              <p class="temp" id="temp">0 <sup> °C</sup></p>
+              <p class="dec" id="weather-type">clear</p>
+            </div>
+
+            <div class="details">
+              <div class="humidity">
+                <i class="fa-solid fa-droplet "></i>
+                <div class="text">
+                  <span id="humidity">50%</span>
+                  <p>Humidity</p>
+                </div>
+              </div>
+              <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                  <span id="wind">20 km/H</span>
+                  <p>Wind Speed</p>
+                </div>
+              </div>
+            
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/059296e0e5.js" crossorigin="anonymous"></script> 
+  <script src="app.js"></script>
+</body>
+</html>
